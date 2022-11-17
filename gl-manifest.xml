@@ -1,5 +1,6 @@
 <manifest>
 <default sync-j="2"/>
+<remote fetch="https://github.com/golden-locks" name="future-gl"/>
 <remote fetch="https://github.com/nxp-imx" name="nxp-imx"/>
 <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
 <remote fetch="https://code.qt.io/yocto" name="QT6"/>
@@ -13,6 +14,7 @@
 <linkfile dest="README" src="README"/>
 <linkfile dest="setup-environment" src="setup-environment"/>
 </project>
+<project name="meta-gl" path="sources/meta-gl" remote="future-gl"/>
 <project name="meta-browser" path="sources/meta-browser" remote="OSSystems" revision="e232c2e21b96dc092d9af8bea4b3a528e7a46dd6"/>
 <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="d669d873edf68dc7440bb07096737203bb7ec505" upstream="kirkstone"/>
 <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="06e1cf4099caa53da33c10e1884064f73dc184dd" upstream="kirkstone"/>
