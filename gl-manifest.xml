@@ -1,6 +1,6 @@
 <manifest>
 <default sync-j="2"/>
-<remote fetch="https://github.com/golden-locks" name="future-gl"/>
+<remote fetch="git@github.com:drgunn1/golden-locks.git" name="future-gl"/>
 <remote fetch="https://github.com/nxp-imx" name="nxp-imx"/>
 <remote fetch="https://github.com/OSSystems" name="OSSystems"/>
 <remote fetch="https://code.qt.io/yocto" name="QT6"/>
