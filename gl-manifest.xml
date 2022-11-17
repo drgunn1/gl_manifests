@@ -14,7 +14,7 @@
 <linkfile dest="README" src="README"/>
 <linkfile dest="setup-environment" src="setup-environment"/>
 </project>
-<project name="meta-future-gl" path="sources/meta-future-gl" remote="future-gl" revision="2a0a15d508a16e4688b42810cf1d395c97896ad3"/>
+<project name="meta-future-gl" path="sources/meta-future-gl" remote="future-gl" revision="master"/>
 <project name="meta-browser" path="sources/meta-browser" remote="OSSystems" revision="e232c2e21b96dc092d9af8bea4b3a528e7a46dd6"/>
 <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="d669d873edf68dc7440bb07096737203bb7ec505" upstream="kirkstone"/>
 <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="06e1cf4099caa53da33c10e1884064f73dc184dd" upstream="kirkstone"/>
