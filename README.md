@@ -3,7 +3,7 @@ repo of recipes for GL platform
 
 Instructions:
 
-repo init -u https://github.com/drgunn1/gl_manifests -b main -m gl-manifest.xml
+repo init -u https://github.com/drgunn1/gl_manifests -b main -m gl-manifest-6.1.1.xml
 
 repo sync
 
