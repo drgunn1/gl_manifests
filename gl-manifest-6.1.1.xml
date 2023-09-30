@@ -14,7 +14,7 @@
   <remote name="imx-support" fetch="https://github.com/nxp-imx-support"/>
 
   <project name="meta-goldilocks" path="sources/meta-goldilocks" remote="future-gl" revision="main"/>
-  <project name="meta-matter" path="sources/meta-matter" remote="nxp-imx" revision="main"/>
+  <project name="meta-matter" path="sources/meta-matter" remote="nxp-imx" revision="master"/>
   <project name="meta-arm" path="sources/meta-arm" remote="yocto" revision="025124814e8676e46d42ec5b07220283f1bdbcd0" upstream="langdale"/>
   <project name="meta-security" path="sources/meta-security" remote="yocto" revision="2aa48e6f4e519abc7d6bd56da2c067309a303e80" upstream="langdale"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="8857b36ebfec3d548755755b009adc491ef320ab" upstream="langdale"/>
