@@ -1,3 +1,4 @@
+![Future Electronics](https://raw.githubusercontent.com/drgunn1/mamabear-app/main/resources/future-electronics.svg)
 # Goldilocks
 repo of recipes for the Goldilocks platform
 
