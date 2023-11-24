@@ -35,6 +35,7 @@ repo sync
 ```
 MACHINE=imx8mp-ddr4-evk DISTRO=fsl-imx-xwayland source imx-setup-release.sh -b mamabear-build
 echo "BBLAYERS += \"\${BSPDIR}/sources/meta-goldilocks\"" >> conf/bblayers.conf
+echo "LICENSE_FLAGS_ACCEPTED = \" commercial \""  >> conf/local.conf
 ```
 
 ## Build the Mamabear Linux image:
