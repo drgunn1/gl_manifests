@@ -5,7 +5,7 @@ repo of recipes for the Goldilocks platform
 Using Ubuntu 20.04:
 ## Install required packages:
 ```
-sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilibbuild-essential chrpath \
+sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential chrpath \
 socat cpio pylint3 xterm rsync curl zstd pzstd xz-utils \
 python python3 python3-pip python3-pexpect python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev debianutils iputils-ping \
 lz4c lz4 libssl-dev
