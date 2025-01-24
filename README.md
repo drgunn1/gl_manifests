@@ -2,7 +2,7 @@
 # Goldilocks
 repo of recipes for the Goldilocks platform
 
-Using Ubuntu 20.04:
+Using Ubuntu 22.04:
 ## Install required packages:
 ```
 sudo apt install gawk wget git diffstat unzip texinfo gcc build-essential \
