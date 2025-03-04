@@ -28,13 +28,17 @@ git config --list
 ```
 mkdir ~/mamabear-yocto-bsp
 cd ~/mamabear-yocto-bsp
-repo init -u https://github.com/drgunn1/gl_manifests -b 6.6.23_2.0.0 -m gl-manifest-6.6.23.xml
+repo init -u https://github.com/drgunn1/gl_manifests -b 6.6.52_2.2.0 -m gl-manifest-6.6.52.xml
 repo sync
 ```
 ## Create and configure the build folder:
 ```
 MACHINE=fdc-mamabear DISTRO=fsl-imx-xwayland source imx-setup-release.sh -b mamabear-build
 echo "BBLAYERS += \"\${BSPDIR}/sources/meta-goldilocks\"" >> conf/bblayers.conf
+echo "BBLAYERS += \"\${BSPDIR}/sources/meta-nxp-connectivity/meta-nxp-matter-advanced\"" >> conf/bblayers.conf
+echo "BBLAYERS += \"\${BSPDIR}/sources/meta-nxp-connectivity/meta-nxp-otbr\"" >> conf/bblayers.conf
+echo "BBLAYERS += \"\${BSPDIR}/sources/meta-nxp-connectivity/meta-nxp-connectivity-examples\"" >> conf/bblayers.conf
+echo "BBLAYERS += \"\${BSPDIR}/sources/meta-nxp-connectivity/meta-nxp-zigbee-rcp\"" >> conf/bblayers.conf
 echo "LICENSE_FLAGS_ACCEPTED = \" commercial \""  >> conf/local.conf
 ```
 
