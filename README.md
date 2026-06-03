@@ -28,7 +28,7 @@ git config --list
 ```
 mkdir ~/mamabear-yocto-bsp
 cd ~/mamabear-yocto-bsp
-repo init -u https://github.com/drgunn1/gl_manifests -b 6.6.52_2.2.0 -m gl-manifest-6.6.52.xml
+repo init -u https://github.com/drgunn1/gl_manifests -b 6.12.49_2.2.0 -m gl-manifest-6.12.49.xml
 repo sync
 ```
 ## Create and configure the build folder:
